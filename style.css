@@ -1,12 +1,16 @@
 body {
     margin: 0;
     padding: 0;
+    /* add font family */
 }
 
 ul {
     display:flex;
-    gap: 10px;
+    gap: 15px;
+    list-style: none;
+    justify-content: flex-end;
 }
+
 
 .header {
     background-color: #1F2937;
@@ -15,12 +19,7 @@ ul {
     justify-content: space-around;
     padding: 70px;
     padding-top: 10px;
-}
-
-ul {
-    list-style: none;
-    justify-content: flex-end;
-}
+}    
 
 a {
     text-decoration: none;
@@ -51,7 +50,7 @@ a {
     color: #E5E7EB;
 }
 
-.main-text, .img-1 {
+.main-text, .img1 {
     margin-top: 40px;
 }
 
@@ -65,3 +64,22 @@ a {
     font-weight: 600;
 }
 
+.img2 {
+    width: 200px;
+    height: auto;
+    border-radius: 15%;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}

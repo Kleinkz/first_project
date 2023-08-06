@@ -58,7 +58,7 @@ a {
     background-color: #3882F6;
     font-size: 22px;
     color: #E5E7EB;
-    border-radius: 15%;
+    border-radius: 10%;
     padding: 5px;
     width: 125px;
     font-weight: 600;
@@ -85,8 +85,12 @@ a {
 }
 
 .quote {
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+    padding: 100px;
 }
 
 .quote-text {
@@ -94,7 +98,40 @@ a {
     font-style: italic;
     color: #1F2937;
     width: 800px;
+    margin: 0;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 125px;
     margin: auto;
-    margin-top: 100px;
+    border-radius: 2.5%;
+}
+
+.blue-box-maintext {
+    font-size: 25px;
+    font-weight: 800;
+    color: #E5E7EB;
+    margin-bottom: 0;
+}
+
+.blue-box-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.button2 {
+    width: 100px;
+    height: 35px;
+    border-radius: 10%;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
 }
 

@@ -110,6 +110,7 @@ a {
     width: 1000px;
     height: 125px;
     margin: auto;
+    margin-top: 50px;
     border-radius: 2.5%;
 }
 
@@ -135,3 +136,14 @@ a {
     border-color: #E5E7EB;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    margin-top: 50px;
+    height: 80px;
+    font-size: 22px;
+    font-weight: 800;
+    color: #E5E7EB;
+}
